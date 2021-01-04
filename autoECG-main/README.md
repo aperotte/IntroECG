@@ -61,12 +61,13 @@ The saved data is already **shuffled**.
 |9          |b|the width of each spike|
 
 For a better understanding of the above parameters, please read the following.
- ![3D trajectory](/3D.png)
- ![table](/table.png =250x)
+ ![3D trajectory](./3D.png)
+ ![table](./table.png =250x)
  We can see from the above table that each interval in the 3D trajectory can be fixed by 3 parameters: the starting position 
-<img src="https://render.githubusercontent.com/render/math?math=\theta_i/t_i "> along the circle of each interval in radius, The amplitude of each spike $a_i$ and the width of each wave $b_i$. By altering these 3 parameters we can change the shape of the 3D trajectory and thus change the waveform of the resulting ECG. 
+<img src="https://render.githubusercontent.com/render/math?math=\theta_i/t_i "> along the circle of each interval in radius, The amplitude of each spike a and the width of each wave b. By altering these 3 parameters we can change the shape of the 3D trajectory and thus change the waveform of the resulting ECG. 
 
 ***3.2 Preprocessing Code***
+
 The input shape of the autoECG model should be 4096 by 12. To satisfy this requirement, the data need to be firstly padded with zeroes: from (12, 2500) to (12, 4096);  after being transposed, the data become (4096, 12). The preprocessing code is in **autoecg_model_gpu**  and the function's name is **preprocess**.
   
 
