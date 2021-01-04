@@ -41,7 +41,7 @@ The simlation part includes two files: **'ecg_simulation.py'** and **'parameters
    **normal_N**: the number of normal ECG data;
    **abnormal_N**: the number of abnormal ECG data;
    **save_params**: whether save parameters for each ecg sample, default value is *False*.
-    2. Output:
+  - Output:
         **sim_ecg_data.npy**: output file, `shape = (normal_N + abnormal_N, 12, sampling_rate*duration)`;
         **sim_ecg_labels.npy**: output file to save labels, `shape = (normal_N + abnormal_N, )`;
         **sim_ecg_params.npy**: depend on **save_params**, file to save parameters for each ecg sample, `shape = (normal_N + abnormal_N, )`.
