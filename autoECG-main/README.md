@@ -61,7 +61,7 @@ The saved data is already **shuffled**.
 |9          |b|the width of each spike|
 
 For a better understanding of the above parameters, please read the following.
-[<img src="./3D.png" width="500"/>](3D trajectory)
+[<img src="./3D.png" width="500"/>]
 [<img src="./table.png" width="500"/>](table)
 
  We can see from the above table that each interval in the 3D trajectory can be fixed by 3 parameters: the starting position 
