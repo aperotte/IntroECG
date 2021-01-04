@@ -61,9 +61,9 @@ The saved data is already **shuffled**.
 |9          |b|the width of each spike|
 
 For a better understanding of the above parameters, please read the following.
- ![3D trajectory](./3D.png){width="36px"}
-[<img src="./3D.png" width="250"/>](image.png)
- ![table](./table.png =250x)
+[<img src="./3D.png" width="5000"/>](3D trajectory)
+[<img src="./table.png" width="5000"/>](table)
+
  We can see from the above table that each interval in the 3D trajectory can be fixed by 3 parameters: the starting position 
 <img src="https://render.githubusercontent.com/render/math?math=\theta_i/t_i "> along the circle of each interval in radius, The amplitude of each spike a and the width of each wave b. By altering these 3 parameters we can change the shape of the 3D trajectory and thus change the waveform of the resulting ECG. 
 
