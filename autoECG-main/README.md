@@ -52,7 +52,7 @@ The saved data is already **shuffled**.
 |----------------|-------------------------------|-----------------------------|
 |1|sampling_rate          |sampling rate, default 250 Hz          |
 |2          |duration|default 10s|
- |3         |gamma|a (12,5) matrix to modify the five waves' amplitudes of 12 leads|
+ |3         |gamma|a (12,5) matrix to modify each lead's five spikes' amplitudes|
  |4          |mu_hr_1          |the mean of heart rate        |
 |5          |sigma_hr_1          |the variance of heart rate        |
 |6         |min_noise_1, max_noise_1        |the max value and min value of noise        |
