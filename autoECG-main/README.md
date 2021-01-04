@@ -37,8 +37,8 @@ The simlation part includes two files: **'ecg_simulation.py'** and **'parameters
  - Install package **neurokit2**
  - Open **sample_code_for_simulation.ipynb** which is a short sample notebook to show the way to output synthetic data.
  - Function **simulation** is all you need.
-    1.  Input:\ 
-   **normal_N**: the number of normal ECG data;\
+    1.  Input:\
+    **normal_N**: the number of normal ECG data;\
    **abnormal_N**: the number of abnormal ECG data;\
    **save_params**: whether save parameters for each ecg sample, default value is *False*.
     2. Output:\
