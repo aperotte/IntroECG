@@ -39,7 +39,7 @@ The simlation part includes two files: **'ecg_simulation.py'** and **'parameters
  - Function **simulation** is all you need.
     1.  Input: 
    **normal_N**: the number of normal ECG data;\
-   **abnormal_N**: the number of abnormal ECG data;\ 
+   **abnormal_N**: the number of abnormal ECG data;\
    **save_params**: whether save parameters for each ecg sample, default value is *False*.
     2. Output:
         **sim_ecg_data.npy**: output file, `shape = (normal_N + abnormal_N, 12, sampling_rate*duration)`;
