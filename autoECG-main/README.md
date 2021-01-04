@@ -28,7 +28,9 @@ activation function. The result in this paper is attractive. The minimum F1 scor
 # 3. Data Generator
 Each of our ECG data consists of 12 leads, with a duration of 10 seconds and a frequency of 250 Hz. Therefore, each sample is a data matrix of 12 by 2500. In our case, we worked on 2 sets
 of data, one was synthetic, one was real clinical data. Although we cannot share our real clinical data, the simulation code is accessible. 
+
 ***3.1 Simulation Code***
+
 The simlation part includes two files: **'ecg_simulation.py'** and **'parameters. py'**.
 
 **Instruction**:
