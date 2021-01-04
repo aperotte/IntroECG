@@ -30,6 +30,7 @@ Each of our ECG data consists of 12 leads, with a duration of 10 seconds and a f
 of data, one was synthetic, one was real clinical data. Although we cannot share our real clinical data, the simulation code is accessible. 
 ***3.1 Simulation Code***
 The simlation part includes two files: **'ecg_simulation.py'** and **'parameters. py'**.
+
 **Instruction**:
  - Install package **neurokit2**
  - Open **sample_code_for_simulation.ipynb** which is a short sample notebook to show the way to output synthetic data.
