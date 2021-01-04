@@ -55,11 +55,11 @@ import kerastuner as kt
 
 """
 
-X_train= np.load('/data/amyloid_concat_train_pace_removed_any_patient_negative_as_features.npy')
-y_train=np.load('/data/amyloid_concat_train_pace_removed_any_patient_negative_as_labels.npy')
+X_train= np.load('/data/Xtrain.npy')
+y_train=np.load('/data/ytrain.npy')
 
-X_test=np.load('/data/amyloid_concat_eval_pace_removed_any_patient_negative_as_features.npy')
-y_test=np.load('/data/amyloid_concat_eval_pace_removed_any_patient_negative_as_labels.npy')
+X_test=np.load('/data/Xtest.npy')
+y_test=np.load('/data/ytest.npy')
 
 #X_train=X_train[:,0,:,:]
 #X_test=X_test[:,0,:,:]
