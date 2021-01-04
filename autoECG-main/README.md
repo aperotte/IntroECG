@@ -17,8 +17,9 @@ activation function. The result in this paper is attractive. The minimum F1 scor
 
 # 2. Modified Structure
   The original model consists of four residual blocks and the overall structure is shown in the following graph. The output has six entries, each containing a probability between 0 and 1, and can be understood as the probability of a given abnormality to be present. The abnormalities are not mutually exclusive, so the probabilities do not necessarily sum to one.  
-  While in our cases, we only need to determine a certain ECG data whether is normal or abnormal (the two probabilities sum to one), so our new output should be a single probability. Therefore, we modified the final dense layer by changing the unit number from six to one while still using the ‘sigmoid’ activation function. Moreover, we used the binary cross entropy function as the new loss function.  
-  The coding file of the modified model is in the autoECG-GPU.ipynb file under the root directory.
+  While in our cases, we only need to determine a certain ECG data whether is normal or abnormal (the two probabilities sum to one), so our new output should be a single probability. Therefore, we modified the final dense layer by changing the unit number from six to one while still using the ‘sigmoid’ activation function. Moreover, we used the binary cross entropy function as the new loss function.
+  We also apply keras tuner package to tune the hyperprameters in the modified model. 
+  The coding file of the modified model and hyperparameter tuning is in the autoecg_model_gpu.py file under the root directory. Note that the data path in the .py file is a sudo path /data/Xtrain.npy. The sudo path should be changed accordingly. 
 
   
   
