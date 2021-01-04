@@ -52,7 +52,7 @@ The input shape of the autoECG model should be 4096 by 12. To satisfy this requi
  
 ![alt text](./transferlearning.png)    
   
-  The coding file of Transfer Learning is in the Transfer.ipynb file under the root directory.
+  The coding file of Transfer Learning is in the Transfer_Learning.py file under the root directory.
 
 [1] Ribeiro, A.H., Ribeiro, M.H., Paixão, G.M.M. et al. Automatic diagnosis of the 12-lead
 ECG using a deep neural network.
