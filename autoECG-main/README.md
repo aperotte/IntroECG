@@ -38,16 +38,12 @@ The simlation part includes two files: **'ecg_simulation.py'** and **'parameters
  - Open **sample_code_for_simulation.ipynb** which is a short sample notebook to show the way to output synthetic data.
  - Function **simulation** is all you need.
     1.  Input: 
-   **normal_N**: the number of normal ECG data;
-   
-   **abnormal_N**: the number of abnormal ECG data;
-   
+   **normal_N**: the number of normal ECG data;\
+   **abnormal_N**: the number of abnormal ECG data;\ 
    **save_params**: whether save parameters for each ecg sample, default value is *False*.
     2. Output:
         **sim_ecg_data.npy**: output file, `shape = (normal_N + abnormal_N, 12, sampling_rate*duration)`;
-        
         **sim_ecg_labels.npy**: output file to save labels, `shape = (normal_N + abnormal_N, )`;
-        
         **sim_ecg_params.npy**: depend on **save_params**, file to save parameters for each ecg sample, `shape = (normal_N + abnormal_N, )`.
 The saved data is already **shuffled**.
  - If you want more customized ECG data, please check **parameters. py** file. All the parameters' definitions are in the following table (_1 stands for normal, _2 stands for abnormal):
