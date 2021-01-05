@@ -10,3 +10,6 @@ A framework built on PyTorch Ignite using Optuna to allow for rapid experimentat
 
 ## Models
 Different example models we've built to showcase approaches that work for electrocardiograms
+
+## Waveform Extraction
+Scripts and tutorial for extracting raw ECG waveforms from GE Muse or PDFs of ECGs. It also includes examples of how to display and review your ECG data. 
