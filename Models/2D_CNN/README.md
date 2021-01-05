@@ -14,7 +14,7 @@
 ## The Model  
   The model we constructed contains total of 8 convolutional blocks. The first convolutional block with 2 convolutional layers, 2 batch normalization layers and a maxpooling layer. Notice that the kernel size of the first layer is (12, 3), which indicates that we analyze 3 of the 12 leads at a time. After this block, there are 7 nearly identical convolutional blocks with 2 convolutional layers and 2 batch normalization layers. While some slightly difference in size of maxpooling, all blocks are the same and the main construction of the model is shown below. The actual kernel sizes and hyperparameter choices can be found in the code itself in 2D_CNN.ipynb.
   
-  ![alt text](/2D_CNN/2D_CNN_Model.png)
+  ![alt text](./2D_CNN_Model.png)
   
 To train and evaluate this model, run all the cells from cell 6 and below. You can adjust the parameters including learning rate, regularization factor in block 21 where the optimizer_ft is specified. Notice that we used a learning rate scheduler in block 21. If this scheduler is not desired or other decay rate is specified, change the gamma rate inside the learning rate scheduler. 
 
