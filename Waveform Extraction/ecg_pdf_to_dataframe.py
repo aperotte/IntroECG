@@ -285,8 +285,3 @@ if __name__ == '__main__':
     # for pdf_path in tqdm(pdf_paths, total = len(pdf_paths)):
     #     df = create_dataframe(pdf_path)
     #     print(pdf_path, "\n", df, "\n\n")
-
-
-#Pull EKG PDFs by knowing PID and acquisition date time
-#http://nypmuseweb.sis.nyp.org/GetReport.asp?PID=1004019020&AcqDateTime=Thu+Feb+26+12:22:36+2015&cse=1&Server13=on&EXT=.PDF
-#Do not need to put day of week (can delete Thu+ and it will still work)
