@@ -19,6 +19,8 @@ Notes:
 - calibration blip: short signal at the beginning of the signal traces for the leads.
 - If scale_x or scale_y is 0, likely the calibration blip shape was not typical.
 - The signal values correspond to the x and y positions from the PDF. This is subtracted to create a 0 baseline for the signal.
+
+To run in bash $python ecg_pdf_to_dataframe.py <name_of_directory_with_ECG_PDFs>
 """
 
 import asyncio
